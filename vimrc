@@ -52,6 +52,7 @@ set autoread                    " No prompt for file changes outside Vim
 set noswapfile                  " No swap file
 set nobackup                    " No backup file
 set nowritebackup
+set backspace=2                 " Backspace acts as expected on linux
 
 set autowriteall                " Save when focus is lost
 autocmd FocusLost * silent! wall
