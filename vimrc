@@ -16,8 +16,9 @@ colorscheme solarized
 set background=dark
 set guifont=Inconsolata:h24     " Huge and not always there ...
 set guifont=Monaco:h18
-set guioptions-=T               " Remove GUI toolbar
-set visualbell                  " Suppress audio/visual error bell
+set guioptions-=Tr              " set GUI options for gvim
+set guioptions=c
+set novisualbell                " Suppress audio/visual error bell
 set notimeout                   " No command timeout
 set showcmd                     " Show typed command prefixes while waiting for operator
 
