@@ -176,8 +176,8 @@ let g:NERDTreeWinSize = 20
 " Small default height for CommandT
 let g:CommandTMaxHeight=20
 
-" Change working directory if you change root directories
-let g:NERDTreeChDirMode=2
+" Don't change dir w/ NERDTree
+let g:NERDTreeChDirMode=0
 
 " Use paste mode when replacing. (Work in progress.)
 " vmap <silent> <C-K> :<C-U>call InPasteMode("<Plug>ReplaceVisual")<CR>
